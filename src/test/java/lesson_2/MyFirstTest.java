@@ -38,7 +38,5 @@ public class MyFirstTest{
         //Проверяем текст ошибки.
         MobileElement errorText = (MobileElement) driver.findElementByXPath("//android.widget.ScrollView[@content-desc=\"Login-screen\"]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[4]/android.widget.TextView[1]");
         Assert.assertEquals(errorText.getText(), "Please enter a valid email address");
-
-
     }
 }
