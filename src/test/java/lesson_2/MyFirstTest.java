@@ -24,7 +24,7 @@ public class MyFirstTest{
         capabilities.setCapability("udid", "emulator-5554");
         capabilities.setCapability("automationName", "UiAutomator2");
         //Проверьте актуальность пути до приложения на своём компьютере.
-        capabilities.setCapability("app", "/Users/proko/Downloads/Android-NativeDemoApp-0.2.1.apk");
+        capabilities.setCapability("app", "/Users/maksimvaulin/Downloads/Android-NativeDemoApp-0.2.1.apk");
 
         MobileDriver driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
 

@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mobil_auto" />
+        <module name="mobile_auto" />
         <module name="GB_Mobile_Auto" />
       </profile>
     </annotationProcessing>
